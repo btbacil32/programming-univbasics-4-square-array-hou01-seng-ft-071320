@@ -1,11 +1,11 @@
 def square_array(numbers)
-    
+    num = []
     index = 0
     while index < numbers[index] do
-      numbers = numbers[index] * numbers[index]
+      num << numbers[index] * numbers[index]
       index += 1
     end
-    numbers
+    num
 end
 
 
