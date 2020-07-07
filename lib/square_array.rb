@@ -5,6 +5,7 @@ def square_array(numbers)
       numbers = numbers[index] * numbers[index]
       index += 1
     end
+    numbers
 end
 
 
